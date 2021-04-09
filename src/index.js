@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App';
+import CodingCheck from './components/CodingChecks.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CodingCheck />
   </React.StrictMode>,
   document.getElementById('root')
 );
