@@ -83,45 +83,32 @@ return (
       <JavaScript>
         <ItemRow>
           <Item>MS WORD</Item>
-          </ItemRow>
-          <Button>
-
+        </ItemRow>
+        <Button>
           <FormControlLabel
-        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript"/>}
-      />
-        </Button>
-
-      </JavaScript>
-      {/* <Html>
-        <Item1Row>
-          <Item1>Email Marketing</Item1>
-          </Item1Row>
-          <Button2>
-          <FormControlLabel
-        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="HTML" className="CheckItem" />}
+            control={<Checkbox checked={skills.Word} onChange={handleChange} name="Word" className="CheckItem"/>}
           />
-          </Button2>
-      </Html> */}
+        </Button>
+      </JavaScript>
       <Css>
         <Item2Row>
           <Item2>MS Excel</Item2>
-          </Item2Row>
+        </Item2Row>
           <Button3>
-          <FormControlLabel
-        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="CSS" className="CheckItem" />}
-      />
-          </Button3>
-
+        <FormControlLabel
+            control={<Checkbox checked={skills.Excel} onChange={handleChange} name="Excel" className="CheckItem" />}
+        />
+        </Button3>
       </Css>
       <Java>
         <Item3Row>
           <Item3>MS Powerpoint</Item3>
           </Item3Row>
-          <Button4>
+        <Button4>
         <FormControlLabel
-        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" />}
+          control={<Checkbox checked={skills.PowerPoint} onChange={handleChange} name="PowerPoint" className="CheckItem" />}
         />
-          </Button4>
+        </Button4>
       </Java>
       <Python>
         <Item4Row>
@@ -129,37 +116,15 @@ return (
           </Item4Row>
           <Button5>
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" />}
+        control={<Checkbox checked={skills.Payroll} onChange={handleChange} name="Payroll" className="CheckItem" />}
       />
           </Button5>
 
       </Python>
-      {/* <Sql>
-        <Item5Row>
-          <Item5>CRM Software</Item5>
-          </Item5Row>
-          <Button6>
-      <FormControlLabel
-        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="SQL" />}
-      />
-          </Button6>
-
-      </Sql> */}
-      {/* <MongoDb>
-        <Item6Row>
-          <Item6>Bloomberg</Item6>
-          </Item6Row>
-          <Button7>
-          <FormControlLabel
-        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="Mongo" />}
-      />
-          </Button7>
-
-      </MongoDb> */}
-      <Link to="/questions">
+      <Link to="/questions" className="next-button">
       <Paginate>
         <Rectangle13>
-          <Next>Next</Next>
+          <Next renderAs="button" variant="contained" className="next-button" onClick={next}>Next</Next>
         </Rectangle13>
       </Paginate>
       </Link>

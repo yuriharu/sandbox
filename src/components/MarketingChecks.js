@@ -87,7 +87,7 @@ return (
           <Button>
 
           <FormControlLabel
-        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="SEO" className="CheckItem"/>}
+        control={<Checkbox checked={skills.SEO} onChange={handleChange} name="SEO" className="CheckItem"/>}
       />
         </Button>
 
@@ -98,7 +98,7 @@ return (
           </Item1Row>
           <Button2>
           <FormControlLabel
-        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="EmailMarketing" className="CheckItem" />}
+        control={<Checkbox checked={skills.EmailMarketing} onChange={handleChange} name="EmailMarketing" className="CheckItem" />}
           />
           </Button2>
       </Html>
@@ -108,7 +108,7 @@ return (
           </Item2Row>
           <Button3>
           <FormControlLabel
-        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="GoogleAnalytics" className="CheckItem" />}
+        control={<Checkbox checked={skills.GoogleAnalytics} onChange={handleChange} name="GoogleAnalytics" className="CheckItem" />}
       />
           </Button3>
 
@@ -119,7 +119,7 @@ return (
           </Item3Row>
           <Button4>
         <FormControlLabel
-        control={<Checkbox checked={skills.Java} onChange={handleChange} name="CopyWritting" className="CheckItem" />}
+        control={<Checkbox checked={skills.CopyWritting} onChange={handleChange} name="CopyWritting" className="CheckItem" />}
         />
           </Button4>
       </Java>
@@ -129,7 +129,7 @@ return (
           </Item4Row>
           <Button5>
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="DigitalMarketing" className="CheckItem" />}
+        control={<Checkbox checked={skills.DigitalMarketing} onChange={handleChange} name="DigitalMarketing" className="CheckItem" />}
       />
           </Button5>
 
@@ -140,7 +140,7 @@ return (
           </Item5Row>
           <Button6>
       <FormControlLabel
-        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="CRMSoftware" className="CheckItem" />}
+        control={<Checkbox checked={skills.CRMSoftware} onChange={handleChange} name="CRMSoftware" className="CheckItem" />}
       />
           </Button6>
 
@@ -151,7 +151,7 @@ return (
           </Item6Row>
           <Button7>
           <FormControlLabel
-        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="AdobeXD" className="CheckItem" />}
+        control={<Checkbox checked={skills.AdobeXD} onChange={handleChange} name="AdobeXD" className="CheckItem" />}
       />
           </Button7>
 

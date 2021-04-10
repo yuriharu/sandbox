@@ -93,12 +93,10 @@ return (
           <Item>JavaScript</Item>
           </ItemRow>
           <Button>
-
           <FormControlLabel
-        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript" className="CheckItem"/>}
-      />
+            control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript" className="CheckItem"/>}
+          />
         </Button>
-
       </JavaScript>
       <Html>
         <Item1Row>
@@ -106,7 +104,7 @@ return (
           </Item1Row>
           <Button2>
           <FormControlLabel
-        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="HTML" className="CheckItem" />}
+            control={<Checkbox checked={skills.HTML} onChange={handleChange} name="HTML" className="CheckItem" />}
           />
           </Button2>
       </Html>
@@ -116,20 +114,19 @@ return (
           </Item2Row>
           <Button3>
           <FormControlLabel
-        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="CSS" className="CheckItem" />}
-      />
+            control={<Checkbox checked={skills.CSS} onChange={handleChange} name="CSS" className="CheckItem" />}
+          />
           </Button3>
-
       </Css>
       <Java>
         <Item3Row>
           <Item3>Java</Item3>
-          </Item3Row>
-          <Button4>
+        </Item3Row>
+        <Button4>
         <FormControlLabel
-        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" className="CheckItem" />}
+          control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" className="CheckItem" />}
         />
-          </Button4>
+        </Button4>
       </Java>
       <Python>
         <Item4Row>
@@ -137,10 +134,9 @@ return (
           </Item4Row>
           <Button5>
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="CheckItem" />}
-      />
+            control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="CheckItem" />}
+          />
           </Button5>
-
       </Python>
       <Sql>
         <Item5Row>
@@ -159,10 +155,9 @@ return (
           </Item6Row>
           <Button7>
           <FormControlLabel
-        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="MongoDB" className="CheckItem" />}
-      />
+            control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="MongoDB" className="CheckItem" />}
+          />
           </Button7>
-
       </MongoDb>
       <Link to="/marketing-check" className="next-button">
       <Paginate>
