@@ -55,7 +55,7 @@ function Result() {
         <div>
             {myScore ?
             <div id="companies">
-                <h2>We've found 4 avairable positions!</h2>
+                <h2>We've found 4 available positions!</h2>
                 <div className="comp">
                     <FontAwesomeIcon icon={faAngleDown} className="icon" />
                     <div className="info">

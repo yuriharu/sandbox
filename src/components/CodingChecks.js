@@ -11,6 +11,7 @@ import styled, { css } from "styled-components";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import { faLaptopHouse } from '@fortawesome/free-solid-svg-icons';
 
 function Checks() {
   const [skills, setSkills] = useState({
@@ -18,7 +19,9 @@ function Checks() {
     Java: false,
     JavaScript: false,
     HTML: false,
-    CSS: false
+    CSS: false,
+    SQL: false,
+    MongoDB: false,
   });
 
   const handleChange = (event) => {
@@ -164,7 +167,7 @@ return (
       <Link to="/marketing-check">
       <Paginate>
         <Rectangle13>
-          <Next>Next</Next>
+          <Next renderAs="button" variant="contained" id="next-button" onClick={next}>Next</Next>
         </Rectangle13>
       </Paginate>
       </Link>
@@ -523,6 +526,7 @@ const Next = styled.span`
 font-family: Roboto;
 color: rgba(255,117,57,1);
 text-align: center;
+text-decoration: none;
 font-size: 24px;
 font-weight: 400;
 font-style: normal;
