@@ -95,7 +95,7 @@ return (
           <Button>
 
           <FormControlLabel
-        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript"/>}
+        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript" className="CheckItem"/>}
       />
         </Button>
 
@@ -127,7 +127,7 @@ return (
           </Item3Row>
           <Button4>
         <FormControlLabel
-        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" />}
+        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" className="CheckItem" />}
         />
           </Button4>
       </Java>
@@ -137,7 +137,7 @@ return (
           </Item4Row>
           <Button5>
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" />}
+        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="CheckItem" />}
       />
           </Button5>
 
@@ -148,7 +148,7 @@ return (
           </Item5Row>
           <Button6>
       <FormControlLabel
-        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="SQL" />}
+        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="SQL" className="CheckItem" />}
       />
           </Button6>
 
@@ -159,15 +159,15 @@ return (
           </Item6Row>
           <Button7>
           <FormControlLabel
-        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="Mongo" />}
+        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="MongoDB" className="CheckItem" />}
       />
           </Button7>
 
       </MongoDb>
-      <Link to="/marketing-check">
+      <Link to="/marketing-check" className="next-button">
       <Paginate>
         <Rectangle13>
-          <Next renderAs="button" variant="contained" id="next-button" onClick={next}>Next</Next>
+          <Next renderAs="button" variant="contained" className="next-button" onClick={next}>Next</Next>
         </Rectangle13>
       </Paginate>
       </Link>
@@ -505,6 +505,7 @@ flex-direction: column;
 display: flex;
 margin-top: 25px;
 margin-left: 20vw;
+text-decoration: none;
 `;
 
 const Rectangle13 = styled.div`
@@ -520,6 +521,7 @@ background-color: transparent;
 flex-direction: column;
 display: flex;
 border-style: solid;
+text-decoration: none;
 `;
 
 const Next = styled.span`

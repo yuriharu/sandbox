@@ -11,12 +11,17 @@ import styled, { css } from "styled-components";
 import Checkbox from '@material-ui/core/Checkbox';
 import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import { faHourglassEnd } from '@fortawesome/free-solid-svg-icons';
 
 function Checks() {
   const [skills, setSkills] = useState({
     SEO: false,
     EmailMarketingSoft: false,
     GoogleAnalytics: false,
+    CopyWritting: false,
+    DigitalMarketing: false,
+    CRMSoftware: false,
+    AdobeXD: false,
   });
 
   const handleChange = (event) => {
@@ -82,7 +87,7 @@ return (
           <Button>
 
           <FormControlLabel
-        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript"/>}
+        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="SEO" className="CheckItem"/>}
       />
         </Button>
 
@@ -93,7 +98,7 @@ return (
           </Item1Row>
           <Button2>
           <FormControlLabel
-        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="HTML" className="CheckItem" />}
+        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="EmailMarketing" className="CheckItem" />}
           />
           </Button2>
       </Html>
@@ -103,7 +108,7 @@ return (
           </Item2Row>
           <Button3>
           <FormControlLabel
-        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="CSS" className="CheckItem" />}
+        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="GoogleAnalytics" className="CheckItem" />}
       />
           </Button3>
 
@@ -114,7 +119,7 @@ return (
           </Item3Row>
           <Button4>
         <FormControlLabel
-        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" />}
+        control={<Checkbox checked={skills.Java} onChange={handleChange} name="CopyWritting" className="CheckItem" />}
         />
           </Button4>
       </Java>
@@ -124,7 +129,7 @@ return (
           </Item4Row>
           <Button5>
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" />}
+        control={<Checkbox checked={skills.Python} onChange={handleChange} name="DigitalMarketing" className="CheckItem" />}
       />
           </Button5>
 
@@ -135,7 +140,7 @@ return (
           </Item5Row>
           <Button6>
       <FormControlLabel
-        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="SQL" />}
+        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="CRMSoftware" className="CheckItem" />}
       />
           </Button6>
 
@@ -146,15 +151,15 @@ return (
           </Item6Row>
           <Button7>
           <FormControlLabel
-        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="Mongo" />}
+        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="AdobeXD" className="CheckItem" />}
       />
           </Button7>
 
       </MongoDb>
-      <Link to="/analysis-check">
+      <Link to="/analysis-check" className="next-button">
       <Paginate>
         <Rectangle13>
-          <Next>Next</Next>
+          <Next renderAs="button" variant="contained" className="next-button" onClick={next}>Next</Next>
         </Rectangle13>
       </Paginate>
       </Link>

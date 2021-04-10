@@ -3,6 +3,6 @@
   flex-direction: column;
 }
 
-#next-button {
+.next-button {
   text-decoration: none;
 }
