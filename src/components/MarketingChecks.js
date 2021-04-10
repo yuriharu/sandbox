@@ -542,7 +542,7 @@ height: 9px;
 width: 25vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
-background-color: rgba(255,117,57,1);
+background-color: rgba(255,255,255,1);
 border-style: solid;
 `;
 
@@ -554,7 +554,7 @@ height: 9px;
 width: 25vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
-background-color: rgba(255,255,255,1);
+background-color: rgba(255,117,57,1);
 border-style: solid;
 `;
 
