@@ -139,7 +139,7 @@ function Login(props) {
 
     const Rectangle8 = styled.div`
       position: absolute;
-      top: 340px;
+      top: 370px;
       left: 0px;
       height: 30px;
       width: 100vw;
@@ -148,7 +148,7 @@ function Login(props) {
 
     const Rectangle9 = styled.div`
       position: absolute;
-      top: 370px;
+      top: 340px;
       left: 0px;
       height: 30px;
       width: 100vw;
