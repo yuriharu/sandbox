@@ -244,7 +244,6 @@ return (
             <WhatSkillsDoYouHave>What skills do you have?</WhatSkillsDoYouHave>
           </Rectangle11>
         </Banner>
-        <Coding>GENERAL</Coding>
         <JavaScript>
         <FormControl className={classes.formControl}>
                 <InputLabel id="q-1">JavaScript</InputLabel>
@@ -335,7 +334,7 @@ return (
       </CodingSkillsBackgroundMask>
     </Container>
   );
-  
+
 }
   const Container = styled.div`
   display: flex;
@@ -344,7 +343,7 @@ return (
   height: 100vh;
   width: 100vw;
   `;
-  
+
   const ButtonOverlay = styled.button`
   display: block;
   background: none;
@@ -360,14 +359,14 @@ return (
   flex-direction: column;
   display: flex;
   `;
-  
+
   const Banner = styled.div`
   height: 197px;
   width: 100vw;
   flex-direction: column;
   display: flex;
   `;
-  
+
   const Rectangle9 = styled.div`
   height: 118px;
   width: 100vw;
@@ -375,7 +374,7 @@ return (
   flex-direction: column;
   display: flex;
   `;
-  
+
   const ShowUsYourStuff = styled.span`
   font-family: Roboto;
   color: rgba(255,255,255,1);
@@ -386,13 +385,13 @@ return (
   margin-top: 50px;
   margin-left: 0;
   `;
-  
+
   const Rectangle10 = styled.div`
   height: 32px;
   width: 100vw;
   background-color: rgba(107,118,113,1);
   `;
-  
+
   const Rectangle11 = styled.div`
   height: 47px;
   width: 100vw;
@@ -400,7 +399,7 @@ return (
   flex-direction: column;
   display: flex;
   `;
-  
+
   const WhatSkillsDoYouHave = styled.span`
   font-family: Roboto;
   color: rgba(255,255,255,1);
@@ -411,7 +410,7 @@ return (
   margin-top: 5px;
   margin-left: 0px;
   `;
-  
+
   const Coding = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -422,16 +421,16 @@ return (
   text-align: center;
   margin-left: 0px;
   `;
-  
+
   const JavaScript = styled.div`
   height: 43px;
-  width: 60vw;
+  width: 90vw;
   flex-direction: row;
   display: flex;
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -439,12 +438,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const ItemRow = styled.div`
   height: 28px;
   flex-direction: row;
@@ -454,7 +453,7 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Html = styled.div`
   height: 43px;
   width: 60vw;
@@ -463,7 +462,7 @@ return (
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item1 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -471,12 +470,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button2 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item1Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -486,16 +485,16 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Css = styled.div`
   height: 43px;
-  width: 60vw;
+  width: 90vw;
   flex-direction: row;
   display: flex;
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item2 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -503,12 +502,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button3 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item2Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -518,16 +517,16 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Java = styled.div`
   height: 43px;
-  width: 60vw;
+  width: 90vw;
   flex-direction: row;
   display: flex;
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item3 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -535,12 +534,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button4 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item3Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -550,16 +549,16 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Python = styled.div`
   height: 43px;
-  width: 60vw;
+  width: 90vw;
   flex-direction: row;
   display: flex;
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item4 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -567,12 +566,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button5 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item4Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -582,7 +581,7 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Sql = styled.div`
   height: 43px;
   width: 60vw;
@@ -591,7 +590,7 @@ return (
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item5 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -599,12 +598,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button6 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item5Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -614,7 +613,7 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const MongoDb = styled.div`
   height: 43px;
   width: 60vw;
@@ -623,7 +622,7 @@ return (
   margin-top: 16px;
   margin-left: 27vw;
   `;
-  
+
   const Item6 = styled.span`
   font-family: Roboto;
   color: rgba(0,0,0,1);
@@ -631,12 +630,12 @@ return (
   font-weight: 400;
   font-style: normal;
   `;
-  
+
   const Button7 = styled.div`
   margin-right: 10vw;
   margin-top: 10px;
   `;
-  
+
   const Item6Row = styled.div`
   height: 28px;
   flex-direction: row;
@@ -646,7 +645,7 @@ return (
   margin-left: 6px;
   margin-top: 15px;
   `;
-  
+
   const Paginate = styled.div`
   height: 49px;
   width: 60vw;
@@ -655,7 +654,7 @@ return (
   margin-top: 210px;
   margin-left: 20vw;
   `;
-  
+
   const Rectangle13 = styled.div`
   height: 49px;
   width: 60vw;
@@ -670,7 +669,7 @@ return (
   display: flex;
   border-style: solid;
   `;
-  
+
   const Next = styled.span`
   font-family: Roboto;
   color: rgba(255,117,57,1);
@@ -681,7 +680,7 @@ return (
   margin-top: 2%;
   margin-left: 0px;
   `;
-  
+
   const ProgressBar = styled.div`
   height: 9px;
   width: 100vw;
@@ -690,7 +689,7 @@ return (
   margin-top: 16px;
   margin-left: -9px;
   `;
-  
+
   const ProgressBarBackground = styled.div`
   height: 9px;
   width: 393px;
@@ -698,7 +697,7 @@ return (
   flex-direction: row;
   display: flex;
   `;
-  
+
   const Rectangle15 = styled.div`
   height: 9px;
   width: 25vw;
@@ -707,7 +706,7 @@ return (
   background-color: rgba(255,255,255,1);
   border-style: solid;
   `;
-  
+
   const Rectangle16 = styled.div`
   position: absolute;
   top: 0px;
@@ -719,7 +718,7 @@ return (
   background-color: rgba(255,255,255,1);
   border-style: solid;
   `;
-  
+
   const Rectangle17 = styled.div`
   position: absolute;
   top: 0px;
@@ -731,13 +730,13 @@ return (
   background-color: rgba(255,117,57,1);
   border-style: solid;
   `;
-  
+
   const Rectangle16Stack = styled.div`
   width: 50vw;
   height: 9px;
   position: relative;
   `;
-  
+
   const Rectangle18 = styled.div`
   height: 9px;
   width: 25vw;
@@ -747,7 +746,7 @@ return (
   background-color: rgba(255,255,255,1);
   border-style: solid;
   `;
-  
+
   const Rectangle15Row = styled.div`
   height: 9px;
   flex-direction: row;
