@@ -88,58 +88,78 @@ return (
       <JavaScript>
         <ItemRow>
           <Item>JavaScript</Item>
+          </ItemRow>
+          <Button>
+
           <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="Button" />}
-        />
-        </ItemRow>
+        control={<Checkbox checked={skills.JavaScript} onChange={handleChange} name="JavaScript"/>}
+      />
+        </Button>
+
       </JavaScript>
       <Html>
         <Item1Row>
           <Item1>HTML</Item1>
+          </Item1Row>
           <Button2>
-            <ButtonOverlay></ButtonOverlay>
+          <FormControlLabel
+        control={<Checkbox checked={skills.HTML} onChange={handleChange} name="HTML" className="CheckItem" />}
+          />
           </Button2>
-        </Item1Row>
       </Html>
       <Css>
         <Item2Row>
           <Item2>CSS</Item2>
+          </Item2Row>
           <Button3>
-            <ButtonOverlay></ButtonOverlay>
+          <FormControlLabel
+        control={<Checkbox checked={skills.CSS} onChange={handleChange} name="CSS" className="CheckItem" />}
+      />
           </Button3>
-        </Item2Row>
+
       </Css>
       <Java>
         <Item3Row>
           <Item3>Java</Item3>
+          </Item3Row>
           <Button4>
-            <ButtonOverlay></ButtonOverlay>
+        <FormControlLabel
+        control={<Checkbox checked={skills.Java} onChange={handleChange} name="Java" />}
+        />
           </Button4>
-        </Item3Row>
       </Java>
       <Python>
         <Item4Row>
           <Item4>Python</Item4>
+          </Item4Row>
           <Button5>
-            <ButtonOverlay></ButtonOverlay>
+          <FormControlLabel
+        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" />}
+      />
           </Button5>
-        </Item4Row>
+
       </Python>
       <Sql>
         <Item5Row>
           <Item5>SQL</Item5>
+          </Item5Row>
           <Button6>
-            <ButtonOverlay></ButtonOverlay>
+      <FormControlLabel
+        control={<Checkbox checked={skills.SQL} onChange={handleChange} name="SQL" />}
+      />
           </Button6>
-        </Item5Row>
+
       </Sql>
       <MongoDb>
         <Item6Row>
           <Item6>MongoDB</Item6>
+          </Item6Row>
           <Button7>
-            <ButtonOverlay></ButtonOverlay>
+          <FormControlLabel
+        control={<Checkbox checked={skills.MongoDB} onChange={handleChange} name="Mongo" />}
+      />
           </Button7>
-        </Item6Row>
+
       </MongoDb>
       <Paginate>
         <Rectangle13>
@@ -215,13 +235,13 @@ margin-left: 0;
 
 const Rectangle10 = styled.div`
 height: 32px;
-width: 375px;
+width: 100vw;
 background-color: rgba(107,118,113,1);
 `;
 
 const Rectangle11 = styled.div`
 height: 47px;
-width: 375px;
+width: 100vw;
 background-color: rgba(28,118,143,1);
 flex-direction: column;
 display: flex;
@@ -231,49 +251,44 @@ const WhatSkillsDoYouHave = styled.span`
 font-family: Roboto;
 color: rgba(255,255,255,1);
 text-align: center;
-font-size: 24px;
+font-size: 5vw;
 font-weight: 400;
 font-style: normal;
-margin-top: 13px;
-margin-left: 53px;
+margin-top: 5px;
+margin-left: 0px;
 `;
 
 const Coding = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 margin-top: 33px;
-margin-left: 144px;
+text-align: center;
+margin-left: 0px;
 `;
 
 const JavaScript = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 118px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const ItemRow = styled.div`
@@ -288,30 +303,24 @@ margin-top: 15px;
 
 const Html = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item1 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button2 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 166px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item1Row = styled.div`
@@ -326,30 +335,24 @@ margin-top: 15px;
 
 const Css = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item2 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button3 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 187px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item2Row = styled.div`
@@ -364,30 +367,24 @@ margin-top: 15px;
 
 const Java = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item3 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button4 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 180px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item3Row = styled.div`
@@ -402,30 +399,24 @@ margin-top: 15px;
 
 const Python = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item4 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button5 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 156px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item4Row = styled.div`
@@ -440,30 +431,24 @@ margin-top: 15px;
 
 const Sql = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item5 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button6 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 187px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item5Row = styled.div`
@@ -478,30 +463,24 @@ margin-top: 15px;
 
 const MongoDb = styled.div`
 height: 43px;
-width: 271px;
+width: 60vw;
 flex-direction: row;
 display: flex;
 margin-top: 16px;
-margin-left: 52px;
+margin-left: 27vw;
 `;
 
 const Item6 = styled.span`
 font-family: Roboto;
 color: rgba(0,0,0,1);
-font-size: 24px;
+font-size: 4vw;
 font-weight: 400;
 font-style: normal;
 `;
 
 const Button7 = styled.div`
-height: 18px;
-width: 18px;
-border-width: 1px;
-border-color: rgba(255,117,57,1);
-background-color: transparent;
-margin-left: 125px;
-margin-top: 6px;
-border-style: solid;
+margin-right: 10vw;
+margin-top: 10px;
 `;
 
 const Item6Row = styled.div`
@@ -525,7 +504,8 @@ margin-left: 24px;
 
 const Rectangle13 = styled.div`
 height: 49px;
-width: 327px;
+width: 60vw;
+margin-left: 20vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 border-top-left-radius: 66.5px;
@@ -545,8 +525,8 @@ text-align: center;
 font-size: 24px;
 font-weight: 400;
 font-style: normal;
-margin-top: 10px;
-margin-left: 141px;
+margin-top: 2%;
+margin-left: 0px;
 `;
 
 const ProgressBar = styled.div`
