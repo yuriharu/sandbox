@@ -35,20 +35,20 @@ function Home() {
     };
 
     const next = async () => {
-        //Const.ClearDuplicate();
+        Const.ClearDuplicate();
 
-        if (name === "") return;
-        let identity = name.replace(" ", ""); //is name the identity?
-        const { data, status } = await axios.get(Const.EndPoint + "?q=identity:" + identity);
-        if (status === 200 && data.length === 0) {
-            const newPerson = { identity: identity };
-            const { data, status } = axios.post(Const.EndPoint + "/" + identity, newPerson);
-            alert("You are new!");
-        } else {
-            alert("You already exist!")
-        }
+        // if (name === "") return;
+        // let identity = name.replace(" ", ""); //is name the identity?
+        // const { data, status } = await axios.get(Const.EndPoint + "?q=identity:" + identity);
+        // if (status === 200 && data.length === 0) {
+        //     const newPerson = { identity: identity };
+        //     const { data, status } = axios.post(Const.EndPoint + "/" + identity, newPerson);
+        //     alert("You are new!");
+        // } else {
+        //     alert("You already exist!")
+        // }
 
-        localStorage.setItem("currentId", identity);
+        // localStorage.setItem("currentId", identity);
     };
 
     return (

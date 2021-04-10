@@ -9,7 +9,8 @@ import CodingChecks from './components/CodingChecks.js';
 import AnalysisChecks from './components/AnalysisChecks.js';
 import MarketingChecks from './components/MarketingChecks.js';
 import GeneralChecks from './components/GeneralChecks.js';
-import Questions from './components/Questions.js'
+import Questions from './components/Questions.js';
+import Result from './components/Result.js';
 
 /******** Routes ***************************/
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -26,6 +27,7 @@ ReactDOM.render(
           <Route exact path="/marketing-check"><MarketingChecks /></Route>
           <Route exact path="/general-check"><GeneralChecks /></Route>
           <Route exact path="/questions"><Questions /></Route>
+          <Route exact path="/result"><Result /></Route>
         </Switch>
       </div>
     </BrowserRouter>

@@ -20,7 +20,6 @@ const ClearDuplicate = async () => {
 };
 
 const Questions = (skillArray) => {
-    console.log(skillArray);
     if (skillArray[1] === "coding") {
         return (
             [
