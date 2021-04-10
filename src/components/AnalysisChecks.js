@@ -84,10 +84,10 @@ return (
           <WhatSkillsDoYouHave>What skills do you have?</WhatSkillsDoYouHave>
         </Rectangle11>
       </Banner>
-      <Coding>MARKETING</Coding>
+      <Coding>ANALYTICS</Coding>
       <JavaScript>
         <ItemRow>
-          <Item>SEO</Item>
+          <Item>Tableau</Item>
           </ItemRow>
           <Button>
 
@@ -109,7 +109,7 @@ return (
       </Html> */}
       <Css>
         <Item2Row>
-          <Item2>Google Analytics</Item2>
+          <Item2>PowerBI</Item2>
           </Item2Row>
           <Button3>
           <FormControlLabel
@@ -120,7 +120,7 @@ return (
       </Css>
       <Java>
         <Item3Row>
-          <Item3>Copy Writting</Item3>
+          <Item3>Data Mining</Item3>
           </Item3Row>
           <Button4>
         <FormControlLabel
@@ -130,7 +130,7 @@ return (
       </Java>
       <Python>
         <Item4Row>
-          <Item4>Digital Marketing</Item4>
+          <Item4>Web Scraping</Item4>
           </Item4Row>
           <Button5>
           <FormControlLabel
@@ -152,7 +152,7 @@ return (
       </Sql> */}
       <MongoDb>
         <Item6Row>
-          <Item6>Adobe XD</Item6>
+          <Item6>Bloomberg</Item6>
           </Item6Row>
           <Button7>
           <FormControlLabel
@@ -500,7 +500,7 @@ height: 49px;
 width: 60vw;
 flex-direction: column;
 display: flex;
-margin-top: 25px;
+margin-top: 150px;
 margin-left: 20vw;
 `;
 
