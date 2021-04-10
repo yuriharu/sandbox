@@ -1,6 +1,7 @@
 #companies {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #companies > h2 {
@@ -8,10 +9,38 @@
 }
 
 .comp {
-    align-items: 'center';
-    background-color: #ECECEC;
+    border-color: rgba(255,117,57,1);
     border-radius: 15px;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
     width: 50%;
     margin: 30px;
     padding: 10px;
+}
+
+.comp > * {
+    flex: 1 2 auto;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info > * {
+    flex: 50%;
+}
+
+.icon {
+    color: rgba(255,117,57,1);
+}
+
+.role {
+    font-size: large;
+    font-weight: 500;
+}
+
+.com-name {
+    font-weight: 300;
 }

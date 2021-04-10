@@ -1,6 +1,8 @@
 import './Result.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 /******** Components ***************************/
 import Const from './Const.js'
@@ -55,28 +57,36 @@ function Result() {
             <div id="companies">
                 <h2>We've found 4 avairable positions!</h2>
                 <div className="comp">
-                    <p>{Const.Employer[1].role}</p>
-                    <p>{Const.Employer[1].company}</p>
-                    <p>{Const.Employer[1].location}</p>
-                    <p>Score: 55</p>
+                    <FontAwesomeIcon icon={faAngleDown} className="icon" />
+                    <div className="info">
+                        <p className="role">{Const.Employer[1].role}</p>
+                        <p>Score: 55</p>
+                        <p className="comp-name">{Const.Employer[1].company}</p>
+                    </div>
                 </div>
                 <div className="comp">
-                    <p>{Const.Employer[2].role}</p>
-                    <p>{Const.Employer[2].company}</p>
-                    <p>{Const.Employer[2].location}</p>
-                    <p>Score: 43</p>
+                    <FontAwesomeIcon icon={faAngleDown} className="icon" />
+                    <div className="info">
+                        <p className="role">{Const.Employer[2].role}</p>
+                        <p>Score: 43</p>
+                        <p className="comp-name">{Const.Employer[2].company}</p>
+                    </div>
                 </div>
                 <div className="comp">
-                    <p>{Const.Employer[3].role}</p>
-                    <p>{Const.Employer[3].company}</p>
-                    <p>{Const.Employer[3].location}</p>
-                    <p>Score: 35</p>
+                    <FontAwesomeIcon icon={faAngleDown} className="icon" />
+                    <div className="info">
+                        <p className="role">{Const.Employer[3].role}</p>
+                        <p>Score: 35</p>
+                        <p className="comp-name">{Const.Employer[3].company}</p>
+                    </div>
                 </div>
                 <div className="comp">
-                    <p>{Const.Employer[4].role}</p>
-                    <p>{Const.Employer[4].company}</p>
-                    <p>{Const.Employer[4].location}</p>
-                    <p>Score: 65</p>
+                    <FontAwesomeIcon icon={faAngleDown} className="icon" />
+                    <div className="info">
+                        <p className="role">{Const.Employer[4].role}</p>
+                        <p>Score: 65</p>
+                        <p className="comp-name">{Const.Employer[4].company}</p>
+                    </div>
                 </div>
             </div>
             : "No!"}

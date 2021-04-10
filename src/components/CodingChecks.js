@@ -36,7 +36,10 @@ function Checks() {
   return (
     <FormGroup className="CheckGroup">
       <FormControlLabel
-        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="CheckItem" />}
+        control={<Checkbox checked={skills.Python} onChange={handleChange} name="Python" className="CheckItem" style={{
+          color: "#00e676",
+          transform: "scale(2)",
+        }} />}
         label="Python"
       />
       <FormControlLabel
