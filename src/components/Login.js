@@ -23,7 +23,8 @@ function Login(props) {
               <Rectangle8></Rectangle8>
               <Rectangle9></Rectangle9>
             </IntroBannerStackStack>
-            <GetHired>GET HIRED</GetHired>
+            <GetHired>Find Your Fit
+            </GetHired>
             <WeMakeItEasierForSkilledStudentsToFindSkilledJobs>
               We make it easier for skilled students to find skilled jobs
             </WeMakeItEasierForSkilledStudentsToFindSkilledJobs>
