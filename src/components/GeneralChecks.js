@@ -50,7 +50,7 @@ function Checks() {
         control={<Checkbox checked={skills.Payroll} onChange={handleChange} name="Payroll" className="CheckItem" />}
         label="Payroll"
       />
-      <Link to="/">
+      <Link to="/questions">
         <Button renderAs="button" variant="contained" id="next-button" onClick={next}>
           Next
         </Button>
