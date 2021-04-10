@@ -1,6 +1,10 @@
 import './Checks.css';
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import axios from 'axios';
+
+/******** Components ***************************/
+import Const from './Const.js'
 
 /******** Material UI ***************************/
 import Button from '@material-ui/core/Button';
@@ -22,7 +26,11 @@ function Checks() {
   };
 
   const next = () => {
-    console.log(skills);
+    let identity = localStorage.getItem("currentId");
+    const { data, status } = axios.post(Const.EndPoint + "/" + identity, skills);
+    if (status === 200) {
+      alert("data added");
+    }
   }
 
   return (

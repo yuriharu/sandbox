@@ -6,6 +6,8 @@ const ClearDuplicate = async () => {
     const { data, status } = await axios.get(EndPoint);
     console.log(data);
 
+    //const { data2, status2 } = await axios.delete(EndPoint + "?q=identity:" + "alex1");
+
     // let currentId = data[1].identity;
     // for (let i = 2; i < data.length; i++) {
     //     if (data[i].identity === currentId) {

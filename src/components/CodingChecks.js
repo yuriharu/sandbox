@@ -26,15 +26,12 @@ function Checks() {
   };
 
   const next = async () => {
-    const { data, status } = await axios.post(Const.EndPoint + "/this-person's-id", skills);
-    // if (status === 200 && data.length === 0) {
-    //     const newPerson = { identity: identity };
-    //     const { data, status } = axios.post(Const.EndPoint, newPerson);
-    //     alert("You are new!");
-    // } else {
-    //     alert("You already exist!")
-    // }
-};
+    let identity = localStorage.getItem("currentId");
+    const { data, status } = axios.post(Const.EndPoint + "/" + identity, skills);
+    if (status === 200) {
+      alert("data added");
+    }
+  };
 
   return (
     <FormGroup className="CheckGroup">
