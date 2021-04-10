@@ -161,11 +161,13 @@ return (
           </Button7>
 
       </MongoDb>
+      <Link to="/marketing-check">
       <Paginate>
         <Rectangle13>
           <Next>Next</Next>
         </Rectangle13>
       </Paginate>
+      </Link>
       <ProgressBar>
         <ProgressBarBackground>
           <Rectangle15Row>
@@ -495,17 +497,16 @@ margin-top: 15px;
 
 const Paginate = styled.div`
 height: 49px;
-width: 327px;
+width: 60vw;
 flex-direction: column;
 display: flex;
 margin-top: 25px;
-margin-left: 24px;
+margin-left: 20vw;
 `;
 
 const Rectangle13 = styled.div`
 height: 49px;
 width: 60vw;
-margin-left: 20vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 border-top-left-radius: 66.5px;
@@ -531,7 +532,7 @@ margin-left: 0px;
 
 const ProgressBar = styled.div`
 height: 9px;
-width: 393px;
+width: 100vw;
 flex-direction: column;
 display: flex;
 margin-top: 16px;
@@ -548,7 +549,7 @@ display: flex;
 
 const Rectangle15 = styled.div`
 height: 9px;
-width: 99px;
+width: 25vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 background-color: rgba(255,117,57,1);
@@ -558,9 +559,9 @@ border-style: solid;
 const Rectangle16 = styled.div`
 position: absolute;
 top: 0px;
-left: 0px;
+margin-left: 0vw;
 height: 9px;
-width: 99px;
+width: 25vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 background-color: rgba(255,255,255,1);
@@ -570,9 +571,9 @@ border-style: solid;
 const Rectangle17 = styled.div`
 position: absolute;
 top: 0px;
-left: 98px;
+left: 25vw;
 height: 9px;
-width: 99px;
+width: 25vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 background-color: rgba(255,255,255,1);
@@ -580,14 +581,15 @@ border-style: solid;
 `;
 
 const Rectangle16Stack = styled.div`
-width: 197px;
+width: 50vw;
 height: 9px;
 position: relative;
 `;
 
 const Rectangle18 = styled.div`
 height: 9px;
-width: 97px;
+width: 25vw;
+left: 50vw;
 border-width: 1px;
 border-color: rgba(255,117,57,1);
 background-color: rgba(255,255,255,1);
