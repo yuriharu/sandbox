@@ -1,0 +1,17 @@
+#companies {
+    display: flex;
+    flex-direction: column;
+}
+
+#companies > h2 {
+    margin: 30px;
+}
+
+.comp {
+    align-items: 'center';
+    background-color: #ECECEC;
+    border-radius: 15px;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+}

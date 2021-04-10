@@ -57,10 +57,14 @@ const QuestionsList = () => {
     }
 
     const submit = () => {
-        ["JavaScript", a1]
-        ["PowerBI", a2]
-        ["SEO", a3]
-        ["Excel", a4]
+        let identity = localStorage.getItem("currentId");
+        const newScore = {
+            JavaScript: a1,
+            PowerBI: a2,
+            SEO: a3,
+            Excel: a4,
+         };
+        const { data, status } = axios.post(Const.EndPoint + "/" + identity + "-score", newScore);
     }
 
     useEffect(() => {

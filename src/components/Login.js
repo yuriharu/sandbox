@@ -16,7 +16,7 @@ function Login(props) {
                 </IntroBanner>
                 <Clipart32890311>
                   <Clipart3289031
-                    src={require("../images/paper.png")}
+                    src="../images/paper.png"
                   ></Clipart3289031>
                 </Clipart32890311>
               </IntroBannerStack>
@@ -30,7 +30,7 @@ function Login(props) {
             <StudentLogIn>
             <Link to="/home">
               <ButtonStack>
-              
+
                 <Button variant="contained" id="next-button">
                   <ButtonBackground>
                     <Rectangle10></Rectangle10>
@@ -38,14 +38,14 @@ function Login(props) {
                 </Button>
               <LogInAsAStudent>Log in as a student</LogInAsAStudent>
               </ButtonStack>
-              </Link>  
+              </Link>
             </StudentLogIn>
             <IntroSoftware2021>© Intro Software 2021</IntroSoftware2021>
           </IPhone11ProX1BackgroundMask>
         </Container>
       );
     }
-    
+
     const Container = styled.div`
       display: flex;
       background-color: white;
@@ -53,7 +53,7 @@ function Login(props) {
       height: 100vh;
       width: 100vw;
     `;
-    
+
     const IPhone11ProX1BackgroundMask = styled.div`
       height: 812px;
       width: 100vw;
@@ -63,7 +63,7 @@ function Login(props) {
       display: flex;
       align-self: center;
     `;
-    
+
     const IntroBanner = styled.div`
       position: absolute;
       top: 0px;
@@ -73,7 +73,7 @@ function Login(props) {
       flex-direction: column;
       display: flex;
     `;
-    
+
     const Rectangle1 = styled.div`
       height: 340px;
       width: 100vw;
@@ -81,7 +81,7 @@ function Login(props) {
       flex-direction: column;
       display: flex;
     `;
-    
+
     const WelcomeTo = styled.span`
       font-family: Roboto;
       height: 41px;
@@ -94,7 +94,7 @@ function Login(props) {
       margin-left: 0px;
       text-align: center;
     `;
-    
+
     const Intro = styled.span`
       font-family: Lora;
       height: 82px;
@@ -107,7 +107,7 @@ function Login(props) {
       text-align: center;
       margin-left: 0px;
     `;
-    
+
     const Clipart32890311 = styled.div`
       position: absolute;
       top: 300px;
@@ -118,7 +118,7 @@ function Login(props) {
       flex-direction: column;
       display: flex;
     `;
-    
+
     const Clipart3289031 = styled.img`
       background-color: transparent;
       flex: 1 1 0%;
@@ -127,7 +127,7 @@ function Login(props) {
       display: flex;
       flex-direction: column;
     `;
-    
+
     const IntroBannerStack = styled.div`
       top: 0px;
       left: 0px;
@@ -135,7 +135,7 @@ function Login(props) {
       position: absolute;
       right: 0px;
     `;
-    
+
     const Rectangle8 = styled.div`
       position: absolute;
       top: 340px;
@@ -144,7 +144,7 @@ function Login(props) {
       width: 100vw;
       background-color: rgba(28,118,143,1);
     `;
-    
+
     const Rectangle9 = styled.div`
       position: absolute;
       top: 370px;
@@ -153,12 +153,12 @@ function Login(props) {
       width: 100vw;
       background-color: rgba(107,118,113,1);
     `;
-    
+
     const IntroBannerStackStack = styled.div`
       height: 400px;
       position: relative;
     `;
-    
+
     const GetHired = styled.span`
       font-family: Roboto;
       color: rgba(0,0,0,1);
@@ -169,7 +169,7 @@ function Login(props) {
       margin-top: 0px;
       margin-left: 0px;
     `;
-    
+
     const WeMakeItEasierForSkilledStudentsToFindSkilledJobs = styled.span`
       font-family: Roboto;
       height: 42px;
@@ -181,7 +181,7 @@ function Login(props) {
       font-style: normal;
       margin-left: 0px;
     `;
-    
+
     const StudentLogIn = styled.div`
       height: 49px;
       width: 100vw;
@@ -190,7 +190,7 @@ function Login(props) {
       margin-top: 80px;
       margin-left: 0px;
     `;
-    
+
     const Button = styled.div`
       position: absolute;
       top: 0px;
@@ -200,7 +200,7 @@ function Login(props) {
       flex-direction: column;
       display: flex;
     `;
-    
+
     const ButtonBackground = styled.div`
       height: 49px;
       width: 100%;
@@ -208,7 +208,7 @@ function Login(props) {
       flex-direction: column;
       display: flex;
     `;
-    
+
     const Rectangle10 = styled.div`
       height: 10vw;
       width: 50vw;
@@ -219,7 +219,7 @@ function Login(props) {
       border-bottom-left-radius: 117.5px;
       background-color: rgba(255,117,57,1);
     `;
-    
+
     const LogInAsAStudent = styled.span`
       font-family: Roboto;
       position: absolute;
@@ -233,13 +233,13 @@ function Login(props) {
       font-weight: 400;
       font-style: normal;
     `;
-    
+
     const ButtonStack = styled.div`
       width: 327px;
       height: 49px;
       position: relative;
     `;
-    
+
     const IntroSoftware2021 = styled.span`
       font-family: Roboto;
       color: rgba(0,0,0,1);
@@ -250,5 +250,5 @@ function Login(props) {
       margin-top: 67px;
       margin-left: 0px;
     `;
-    
+
 export default Login;
