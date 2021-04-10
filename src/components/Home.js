@@ -38,7 +38,7 @@ function Home() {
     };
 
     const next = async () => {
-        Const.ClearDuplicate();
+        //Const.ClearDuplicate();
 
         if (name === "") return;
         let identity = name.replace(" ", ""); //is name the identity?

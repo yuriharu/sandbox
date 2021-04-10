@@ -8,7 +8,6 @@ import Const from './Const.js'
 
 /******** Material UI ***************************/
 import Button from '@material-ui/core/Button';
-import FormGroup from '@material-ui/core/FormGroup';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
 import { makeStyles } from '@material-ui/core/styles';
@@ -58,10 +57,14 @@ const QuestionsList = () => {
     }
 
     const submit = () => {
-        console.log(a1);
-        console.log(a2);
-        console.log(a3);
-        console.log(a4);
+        let identity = localStorage.getItem("currentId");
+        const newScore = {
+            JavaScript: a1,
+            PowerBI: a2,
+            SEO: a3,
+            Excel: a4,
+         };
+        const { data, status } = axios.post(Const.EndPoint + "/" + identity + "-score", newScore);
     }
 
     useEffect(() => {
