@@ -1,0 +1,4 @@
+#CheckGroup {
+  display: flex;
+  flex-direction: column;
+}
