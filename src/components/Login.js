@@ -14,11 +14,11 @@ function Login(props) {
                     <Intro>INTRO</Intro>
                   </Rectangle1>
                 </IntroBanner>
-                <Clipart32890311>
+                {/* <Clipart32890311>
                   <Clipart3289031
                     src="../images/paper.png"
                   ></Clipart3289031>
-                </Clipart32890311>
+                </Clipart32890311> */}
               </IntroBannerStack>
               <Rectangle8></Rectangle8>
               <Rectangle9></Rectangle9>
